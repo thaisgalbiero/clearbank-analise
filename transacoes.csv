@@ -1,0 +1,27 @@
+id,data,cliente_id,tipo,valor,descricao,categoria
+1,2026-01-05,CLI001,credito,4500.00,Salário janeiro,salario
+2,2026-01-08,CLI001,debito,230.50,Mercado,compra
+3,2026-01-12,CLI002,credito,12500.00,Recebimento de contrato,transferencia
+4,2026-01-20,CLI002,debito,1200.00,Aluguel,moradia
+5,2026-01-29,CLI003,debito,69.90,Internet,conta
+6,2026-02-05,CLI001,credito,4500.00,Salário fevereiro,salario
+7,2026-02-10,CLI003,debito,11000.00,Compra de equipamento,compra
+8,2026-02-14,CLI002,credito,2200.00,Serviço,transferencia
+9,2026-02-20,CLI001,debito,315.75,Mercado,compra
+10,2026-02-28,CLI003,debito,99.90,Assinatura,assinatura
+11,2026-03-05,CLI001,credito,4500.00,Salário março,salario
+12,2026-03-09,CLI002,credito,10000.00,Recebimento no limite,transferencia
+13,2026-03-12,CLI002,debito,1350.00,Aluguel,moradia
+14,2026-03-20,CLI001,debito,278.40,Mercado,compra
+15,2026-03-30,CLI003,debito,89.90,Internet,conta
+,2026-01-06,CLI001,debito,20.00,ID ausente,teste
+abc,2026-01-07,CLI001,debito,20.00,ID inválido,teste
+18,2026-02-10,,credito,200.00,Cliente ausente,teste
+19,2026-02-30,CLI001,debito,50.00,Data inexistente,teste
+20,10/03/2026,CLI001,debito,50.00,Formato de data inválido,teste
+21,2026-03-11,CLI002,pix,100.00,Tipo inválido,teste
+22,2026-03-12,CLI002,debito,abc,Valor inválido,teste
+23,2026-03-13,CLI003,debito,0,Valor zero,teste
+24,2026-03-14,CLI003,debito,-10.00,Valor negativo,teste
+25,2026-03-15,CLI003,debito,NaN,Valor não finito,teste
+1,2026-01-05,CLI001,credito,4500.00,Salário janeiro,salario

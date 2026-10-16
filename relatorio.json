@@ -1,0 +1,124 @@
+{
+  "gerado_em": "2026-10-16",
+  "total_transacoes_validas": 15,
+  "total_transacoes_invalidas": 11,
+  "total_duplicadas": 1,
+  "total_linhas_lidas": 26,
+  "periodo": {
+    "inicio": "2026-01-05",
+    "fim": "2026-03-30",
+    "dias_desde_mais_antiga": 284,
+    "dias_desde_mais_recente": 200
+  },
+  "resumo_mensal": {
+    "2026-01": {
+      "quantidade": 5,
+      "total_credito": 17000.0,
+      "total_debito": 1500.4,
+      "saldo": 15499.6,
+      "media": 3700.08,
+      "maior_valor": 12500.0,
+      "menor_valor": 69.9,
+      "maior_transacao": {
+        "id": 3,
+        "data": "2026-01-12",
+        "cliente_id": "CLI002",
+        "tipo": "credito",
+        "valor": 12500.0,
+        "descricao": "Recebimento de contrato",
+        "categoria": "transferencia",
+        "suspeita": true
+      },
+      "menor_transacao": {
+        "id": 5,
+        "data": "2026-01-29",
+        "cliente_id": "CLI003",
+        "tipo": "debito",
+        "valor": 69.9,
+        "descricao": "Internet",
+        "categoria": "conta",
+        "suspeita": false
+      }
+    },
+    "2026-02": {
+      "quantidade": 5,
+      "total_credito": 6700.0,
+      "total_debito": 11415.65,
+      "saldo": -4715.65,
+      "media": 3623.13,
+      "maior_valor": 11000.0,
+      "menor_valor": 99.9,
+      "maior_transacao": {
+        "id": 7,
+        "data": "2026-02-10",
+        "cliente_id": "CLI003",
+        "tipo": "debito",
+        "valor": 11000.0,
+        "descricao": "Compra de equipamento",
+        "categoria": "compra",
+        "suspeita": true
+      },
+      "menor_transacao": {
+        "id": 10,
+        "data": "2026-02-28",
+        "cliente_id": "CLI003",
+        "tipo": "debito",
+        "valor": 99.9,
+        "descricao": "Assinatura",
+        "categoria": "assinatura",
+        "suspeita": false
+      }
+    },
+    "2026-03": {
+      "quantidade": 5,
+      "total_credito": 14500.0,
+      "total_debito": 1718.3,
+      "saldo": 12781.7,
+      "media": 3243.66,
+      "maior_valor": 10000.0,
+      "menor_valor": 89.9,
+      "maior_transacao": {
+        "id": 12,
+        "data": "2026-03-09",
+        "cliente_id": "CLI002",
+        "tipo": "credito",
+        "valor": 10000.0,
+        "descricao": "Recebimento no limite",
+        "categoria": "transferencia",
+        "suspeita": false
+      },
+      "menor_transacao": {
+        "id": 15,
+        "data": "2026-03-30",
+        "cliente_id": "CLI003",
+        "tipo": "debito",
+        "valor": 89.9,
+        "descricao": "Internet",
+        "categoria": "conta",
+        "suspeita": false
+      }
+    }
+  },
+  "transacoes_suspeitas": [
+    {
+      "id": 3,
+      "data": "2026-01-12",
+      "cliente_id": "CLI002",
+      "tipo": "credito",
+      "valor": 12500.0,
+      "descricao": "Recebimento de contrato",
+      "categoria": "transferencia",
+      "suspeita": true
+    },
+    {
+      "id": 7,
+      "data": "2026-02-10",
+      "cliente_id": "CLI003",
+      "tipo": "debito",
+      "valor": 11000.0,
+      "descricao": "Compra de equipamento",
+      "categoria": "compra",
+      "suspeita": true
+    }
+  ]
+}
